@@ -23,8 +23,8 @@ public class MatilAuthConfig {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("dev.js.pekah@gmail.com");
-        mailSender.setPassword("ssafy12#");
+        mailSender.setUsername("");
+        mailSender.setPassword("");
         mailSender.setDefaultEncoding("utf-8");
         mailSender.setJavaMailProperties(properties);
 
